@@ -57,6 +57,29 @@
   scroll-behavior: smooth;
 }
 
+/* Seção de Manutenção */
+
+.blur-section {
+  filter: blur(5px); /* desfoca o conteúdo */
+  pointer-events: none; /* impede interação */
+  user-select: none; /* impede seleção de texto */
+}
+
+.icone {
+  width: 80px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.posicao {
+  display: flex;
+  flex-direction: column;       /* organiza os itens em coluna */
+  align-items: center;          /* centraliza horizontalmente */
+  justify-content: center;      /* centraliza verticalmente */
+  height: 10vh;                /* altura total da tela */
+  text-align: center
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
